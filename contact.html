@@ -5,14 +5,22 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aegean Paradise</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <nav>
-  <a href=“home.html”>Home</a>
-  <a href=“about.html”>About</a>
-  <a href=“plan.html”>Plan Your Trip<a>
-    </nav>
+<!-- Header -->
+    <div class="column text-center">
+      <div class="header-nav">
+        <img src="http://via.placeholder.com/150x150" alt="">
+        <p>New Century Group</p>
+        <div class="menu align-center">
+          <ul class="menu">
+            <li><a href=“home.html”>Home</a></li>
+            <li><a href=“plan.html”>Plan Your Trip</a></li>
+            <li><a href=“contact.html”>Contact Us</a></li>
+          </ul>
+         </div>
     <div class="row">
       <div class="small-12 medium-6 column">
         <h2>Still unsure? Drop us a line!</h2>
@@ -20,15 +28,28 @@
       </div>
     <form>
       <div class="row">
-        <div class="medium-6 columns">
+        <div class="small-12 medium-6 column">
           <label for="first-name">First Name</label>
           <input type="text" id="first-name">
         </div>
-        <div class="medium-6 columns">
+        <div class="medium-6 column">
           <label for="last-name">Last Name</label>
           <input type="text" id="last-name">
         </div>
-        <div class="medium-6 columns">
+        <div class="row column">
+          <label for="email">Email Address</label>
+          <input type="text" id="email">
+        </div>
+        <div class="row column">
+        <label for="subject">Subject</label>
+        <input type="text id="subject>
+        <div class="row column">
+          <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+      </div>
+      <input type="submit" value="Submit" class="button">
+      </form>
+    </div>
 
 
 
