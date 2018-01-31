@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegean Paradise</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="row">
+      <div class="column text-center">
+        <div class="header-nav">
+          <img src="http://via.placeholder.com/150x150" alt="">
+          <p>New Century Group</p>
+            <div class="menu align-center">
+              <ul class="menu">
+                <li><a href='home.html' class="header-nav-link">HOME</a></li>
+                <li><a href='booking form.html' class="header-nav-link">PLAN YOUR TRIP</a></li>
+                <li><a href='events.html' class="header-nav-link">EVENTS</a></li>
+                <li><a href='contact.html' class="header-nav-link">CONTACT US</a></li>
+                <li><a href='FAQs.html' class="header-nav-link">FAQs</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+   
+   <!--Passenger Details-->
+	  <form method="post" action="//submit.form" onSubmit="return validateForm();">
+		<div style="width: 400px;">
+	  </div>
+		<div style="padding-bottom: 18px;font-size : 24px;">Hotel Reservation</div>
+		<div style="display: flex; padding-bottom: 18px;width : 450px;">
+		<div style=" margin-left : 0; margin-right : 1%; width : 49%;">First name<span style="color: red;"> *</span><br/>
+	  	  <input type="text" id="data_2" name="data_2" style="width: 100%;" class="form-control"/>
+		</div>
+		<div style=" margin-left : 1%; margin-right : 0; width : 49%;">Last name<span style="color: red;"> *</span><br/>
+	  	  <input type="text" id="data_3" name="data_3" style="width: 100%;" class="form-control"/>
+		</div>
+		</div><div style="padding-bottom: 18px;">Phone<span style="color: red;"> *</span><br/>
+	 	  <input type="text" id="data_4" name="data_4" style="width : 450px;" class="form-control"/>
+		</div>
+		<div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+  	  	  <input type="text" id="data_5" name="data_5" style="width : 450px;" class="form-control"/>
+		</div>
+		<div style="padding-bottom: 18px;">Arrival date<span style="color: red;"> *</span><br/>
+	 	  <input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control"/>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
+		<div style="padding-bottom: 18px;">Departure date<span style="color: red;"> *</span><br/>
+		  <input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control"/>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
+		<div style="padding-bottom: 18px;">Number of adults<span style="color: red;"> *</span><br/>
+		  <input type="number" id="data_8" name="data_8" style="width : 250px;" class="form-control"/>
+		</div>
+		<div style="padding-bottom: 18px;">Number of children<br/>
+	 	  <input type="number" id="data_9" name="data_9" style="width : 250px;" class="form-control"/>
+		</div>
+		<div style="padding-bottom: 18px;">Questions / Comments<br/>
+		<textarea id="data_10" false name="data_10" style="width : 450px;" rows="6" class="form-control"></textarea>
+		</div>
+		<div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+		<div>
+		<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+		<script src="https://www.100forms.com/js/FORMKEY:4XKJMH5KG3WQ/SEND:my@email.com" type="text/javascript"></script>
+		</div>
+	</form>
+
+  <!-- Footer (instagram, Facebook) -->
+  <div class="row">
+    <div class="column"> 
+      <div class="menu-centered">
+        <ul class="menu">
+          <li><a href="#"><img src="http://via.placeholder.com/20x20"></a></li>
+          <li><a href="#"><img src="http://via.placeholder.com/20x20"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
